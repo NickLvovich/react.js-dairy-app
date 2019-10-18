@@ -1,0 +1,43 @@
+.comment-item {
+  margin: 10px 0;
+  transition: all .3s ease;
+  font-size: 24px;
+  border-bottom: 1px solid #ededed;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 50px 0 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-left: 2px solid #fff; 
+}
+
+.button-delete {
+  transition: all .8s ease;
+  width: 97px;
+  height: 34px;
+  border: 2px solid #FF3159;
+  color: #FF3159;
+  background-color: #fff;
+  border-radius: 5px;
+  float: right;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+}
+
+.mark {
+  position: absolute;
+  left: 20px;
+}
+
+.button-delete:hover{
+  border: 2px solid #292b2c;
+  color: #fff;
+  background-color: #FF3159;
+}

@@ -1,0 +1,18 @@
+.todo-comment-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2vw;
+  height: 100vh;
+
+}
+
+.block-wrapper {
+  padding: 20px;
+  max-width: 600px;
+  height: min-content;
+  margin: 50px auto;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
